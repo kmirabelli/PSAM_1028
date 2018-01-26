@@ -1,1 +1,3 @@
-# :thumbsup:
+#Katelyn Mirabelli
+#AAS Graphic Design 
+
