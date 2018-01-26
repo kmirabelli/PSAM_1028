@@ -1,3 +1,3 @@
-#Katelyn Mirabelli
-#AAS Graphic Design 
+# Katelyn Mirabelli
+# AAS Graphic Design 
 
