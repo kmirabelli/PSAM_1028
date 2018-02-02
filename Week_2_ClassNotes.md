@@ -70,3 +70,28 @@ false
 var isAlive = true
 
 ```
+
+### And then nulls 
+
+```javascript
+
+var clouds = 100
+undefined
+clouds = clouds + 1
+101
+clouds = clouds - 3
+98
+clouds ++
+98
+clouds --
+99
+clouds = "words"
+"words"
+clouds = null 
+null
+clouds
+null
+clouds = 300
+300
+
+```
