@@ -1,7 +1,7 @@
 
 ### This is my code snippet from 2/1/18
 
-```ruby 
+```javascript 
 
 var firstName = "Katelyn"
 undefined
@@ -24,7 +24,7 @@ monogram
 
 ### And then we did this 
 
-```ruby
+```javascript
 
 var secondsInAMinute = 60;
 undefined
