@@ -1,4 +1,6 @@
 
+This is my code snippet from 2/1/18
+
 ```rudy 
 
 var firstName = "Katelyn"
