@@ -1,5 +1,5 @@
 ## Websites I use too much: 
-### [Netflix](https://www.netflix.com/) <img src="https://github.com/kmirabelli/PSAM_1028/blob/master/img/netflix.png" width="50">
+### [Netflix](https://www.netflix.com/) <img src="https://github.com/kmirabelli/PSAM_1028/blob/master/img/netflix_logo.png" width="50">
 ### [Pinterest](https://www.pinterest.com/) ![Pinterest](https://github.com/kmirabelli/PSAM_1028/blob/master/img/pinterest_logo.png)
 ### [Twitter](https://www.twitter.com/) ![Twitter](https://github.com/kmirabelli/PSAM_1028/blob/master/img/twitter.png)
 ## Websites I would like to spend more time on: 
