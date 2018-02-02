@@ -50,3 +50,23 @@ secondsAlive
 946080000
 
 ```
+
+### And then booleans 
+
+```javascript
+
+var isAlive = true
+undefined
+var isDead = true
+undefined
+var redEvilEyes = false
+undefined
+var ableToSpeak = true 
+undefined
+isAlive
+true
+isAlive = false
+false
+var isAlive = true
+
+```
