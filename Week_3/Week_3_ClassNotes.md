@@ -1,4 +1,4 @@
-### Tic Tac Toe 
+### Tic Tac Toe Example
 
 
 ```Javascript
@@ -135,5 +135,18 @@ myColorArray.unshift("Yellow")
 4
 myColorArray
 (4) ["Yellow", "Red", "Green", "Blue"]
+
+```
+
+### .pop Method Example 
+
+``` Javascript
+
+myColorArray
+(4) ["Yellow", "Red", "Green", "Blue"]
+myColorArray.pop()
+"Blue"
+myColorArray
+(3) ["Yellow", "Red", "Green"]
 
 ```
