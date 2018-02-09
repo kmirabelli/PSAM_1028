@@ -109,3 +109,18 @@ __proto__
 Array(0)
 
 ```
+
+### .push Method Example
+
+``` Javascript 
+
+myFruitArray
+(5) ["Apple", "Banana", "Orange", "Peach", "Pear"]
+myFruitArray.push("Pineapple")
+6
+myFruitArray
+(6) ["Apple", "Banana", "Orange", "Peach", "Pear", "Pineapple"]
+myFruitArray.length-1
+5
+
+```
