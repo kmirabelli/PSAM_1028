@@ -124,3 +124,16 @@ myFruitArray.length-1
 5
 
 ```
+
+### .unshift Method Example
+
+``` Javascript
+
+var myColorArray = ["Red","Green","Blue"]
+undefined
+myColorArray.unshift("Yellow")
+4
+myColorArray
+(4) ["Yellow", "Red", "Green", "Blue"]
+
+```
