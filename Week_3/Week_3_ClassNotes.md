@@ -203,22 +203,25 @@ ledColorArray.join(" * ")
 ### Math.random and Math.floor Method Examples
 
 ``` Javascript
-
+//A random number between 0 and 1
 Math.random()
 0.3872237450604328
+//A random number between 1 and 10
 Math.random() * 10 
 3.6699822288656825
+//A random number between 1 and 100
 Math.random() * 100
 23.915150692281628
+//9.9999 as a whole number
 Math.floor(9.9999)
 9
+//5.9999 as a whole number
 Math.floor(5.9999)
 5
-var randomOneAndTen = Math.random() * 10
+//A random whole number between 1 and 10
+var randomOneAndTen = Math.floor(Math.random() * 10)
 undefined
 randomOneAndTen
-5.5394999014827295
-Math.floor(Math.random() * 10)
-6
+2
 
 ```
