@@ -182,5 +182,5 @@ ledColorArray.indexOf("blue")
 2
 myLargeColorArray.indexOf("purple")
 -1
-
+// -1 means the element could not be found
 ```
