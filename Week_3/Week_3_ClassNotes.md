@@ -184,3 +184,18 @@ myLargeColorArray.indexOf("purple")
 -1
 // -1 means the element could not be found
 ```
+
+### .join Method Example
+
+``` Javascript
+
+var ledColorArray = ["red","green","blue"]
+undefined
+ledColorArray.join("*")
+"red*green*blue"
+ledColorArray
+(3) ["red", "green", "blue"]
+ledColorArray.join(" * ")
+"red * green * blue"
+
+```
