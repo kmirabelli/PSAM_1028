@@ -199,3 +199,26 @@ ledColorArray.join(" * ")
 "red * green * blue"
 
 ```
+
+### Math.random and Math.floor Method Examples
+
+``` Javascript
+
+Math.random()
+0.3872237450604328
+Math.random() * 10 
+3.6699822288656825
+Math.random() * 100
+23.915150692281628
+Math.floor(9.9999)
+9
+Math.floor(5.9999)
+5
+var randomOneAndTen = Math.random() * 10
+undefined
+randomOneAndTen
+5.5394999014827295
+Math.floor(Math.random() * 10)
+6
+
+```
