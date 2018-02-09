@@ -165,3 +165,22 @@ myLargeColorArray
 (6) ["red", "green", "blue", "white", "gray", "black"]
 
 ```
+
+### .indexOf Method Example
+
+``` Javascript
+
+var ledColorArray = ["red","green","blue"]
+undefined
+var grayScaleArray = ["white","gray","black"]
+undefined
+var myLargeColorArray = ledColorArray.concat(grayScaleArray)
+undefined
+myLargeColorArray
+(6) ["red", "green", "blue", "white", "gray", "black"]
+ledColorArray.indexOf("blue")
+2
+myLargeColorArray.indexOf("purple")
+-1
+
+```
