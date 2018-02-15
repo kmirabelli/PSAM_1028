@@ -225,3 +225,14 @@ randomOneAndTen
 2
 
 ```
+
+### console.log Method Example
+
+```Javascript
+
+<script type="text/javascript">
+	var myPhrase = "Hello, World"
+	console.log(myPhrase)
+</script>
+
+```
