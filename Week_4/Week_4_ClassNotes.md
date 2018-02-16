@@ -1,19 +1,20 @@
 
-### if/else/else if functions and console.log 
+### if & else functions and console.log 
 
 ```Javascript
 
 // if condition
 
-var hasFangs = false
-undefined
+var hasFangs = true
 
 if(hasFangs){
     console.log("That's a vampire")
 }
-undefined
+That's a vampire
+
+//else condition
+
 var hasFangs = true
-undefined
 if(hasFangs){
     console.log("That's a vampire")
 } else {
@@ -23,24 +24,23 @@ That's a vampire
 
 ```
 
-### Needs revision
+### else if function and console log 
 
 ```Javascript
 
-// if & else if
+// if & else if condition 
 
 var hasFangs = true
-undefined
 var hasClaws = true
-undefined
-if(hasFangs){
-	console.log("That's a vampire")
+
+if(hasFangs&&hasClaws){
+	console.log("That's a monster")
 } else if(hasClaws){
 	console.log("That's a werewolf")
-} else if(hasFangs && hasClaws){
-	console.log("That's a monster")
+} else if(hasFangs){
+	console.log("That's a vampire")
 } else {
-	console.log("That's a human)
+	console.log("That's a human")
 }
 
 ```
