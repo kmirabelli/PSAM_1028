@@ -49,6 +49,8 @@ if(hasFangs){
 
 ```Javascript
 
+//while test
+
 var sheepCounter = 0
 
 while(sheepCounter < 10){
@@ -67,6 +69,20 @@ VM1277:3 I have counted7 sheep!
 VM1277:3 I have counted8 sheep!
 VM1277:3 I have counted9 sheep!
 9
+
+```
+
+#### For test 
+
+```Javascript
+
+var timesToSayHello = 10
+
+undefined
+for (var i = 0; i < timesToSayHello; i++) {
+	console.log("Hello!")
+    }
+Hello!
 
 ```
 
