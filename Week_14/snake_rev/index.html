@@ -1,0 +1,71 @@
+<!-- Snake, The Game -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Snake The Game</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div id="fill">
+</div>
+<pre id="title">
+                 _        
+                | |       
+ ___ _ __   __ _| | _____ 
+/ __| '_ \ / _` | |/ / _ \
+\__ \ | | | (_| |   <  __/
+|___/_| |_|\__,_|_|\_\___|
+                          
+                          
+
+</pre>
+
+<pre id="move">
+                          .---.          .--.
+              __        .'     '.       /  " )
+      _     .'  '.     /   .-.   \     /  .-'\
+     ( \   / .-.  \   /   /   \   \   /  /    ^
+      \ `-` /   \  `-'   /     \   `-`  /
+       `-.-`     '.____.'       `.____.'
+
+</pre>
+<div id="fill">
+</div>
+<div align="center">
+<button align="center"> <a href="snake.html">ENTER</a></button>
+</div>
+
+<script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous">
+  </script>
+
+<script>  
+$(document).ready(function() {
+    console.log("ready!")
+})
+
+$(document).ready(function() {
+    $("#move").fadeOut(0).fadeIn(10)
+})
+
+        var leftOffSet = 0
+        var moveHeading = function(){
+            $("#move").offset({left: leftOffSet})
+
+            leftOffSet++ 
+
+            if(leftOffSet > 1400){
+                leftOffSet = 0
+            }
+        }
+
+    // change the speed
+    setInterval(moveHeading, 6)
+    </script>
+</body>
+</html>
